@@ -113,7 +113,7 @@ def predict_with_tflite(image_path):
         return fallback_predict_image(image_path)
 
 # Function to generate responses using Together API directly with requests
-def generate_together_response(prompt, temperature=0.7, max_tokens=1000):
+def generate_together_response(prompt, temperature=0.7, max_tokens=1500):
     try:
         headers = {
             "Authorization": f"Bearer {TOGETHER_API_KEY}",
