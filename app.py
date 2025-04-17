@@ -36,7 +36,7 @@ class_labels = [
 ]
 
 # Together API Configuration
-TOGETHER_API_KEY = os.environ.get("TOGETHER_API_KEY", "")
+TOGETHER_API_KEY = os.environ.get("TOGETHER_API_KEY", "894f20aae5d74def34790efed3a6d2f3883fc6a7b5716bfcdea47a8c6207ba19")
 
 # Model file path
 MODEL_PATH = 'model.tflite'  # Path to TFLite model file
